@@ -21,7 +21,6 @@
 }
     </style>
     <meta charset="UTF-8">
-    <link
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Planet Savier</title>
     <link rel="stylesheet" href="Planet Saviour.css">
@@ -29,11 +28,10 @@
 </head>
 <body>
     <canvas id="canvas"></canvas>
+     <h1 id="1" fornt_color="White">Creating by Mr.KD</h1>
     <a class="full-screen" target="_blank"></a>
-    <h1>Creating by Mr.KD</h1>
 </body>
-    <script>
-        //Vanilla JS
+//Vanilla JS
 
 //PLAY IN FULL PAGE VIEW!
 
@@ -328,8 +326,6 @@ function game() {
                 distance = Math.sqrt(Math.pow(asteroids[i].realX -  cW/2, 2) + Math.pow(asteroids[i].realY - cH/2, 2));
                 if (distance < (((asteroids[i].width/asteroids[i].size) / 2) - 4) + 100) {
                     gameOver = true;
-                    creating by Azar
-                    
                     playing  = false;
                     canvas.addEventListener('mousemove', action);
                 }
@@ -465,5 +461,4 @@ function game() {
         full[0].setAttribute('style', 'display: none');
     }
 }
-    </script>
 </html>
